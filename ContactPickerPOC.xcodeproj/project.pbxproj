@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B30A452C649D4D006855CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B30A442C649D4D006855CE /* AppDelegate.m */; };
+		33B30A482C649D4D006855CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B30A472C649D4D006855CE /* SceneDelegate.m */; };
+		33B30A4B2C649D4D006855CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B30A4A2C649D4D006855CE /* ViewController.m */; };
+		33B30A4E2C649D4D006855CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B30A4C2C649D4D006855CE /* Main.storyboard */; };
+		33B30A502C649D4F006855CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B30A4F2C649D4F006855CE /* Assets.xcassets */; };
+		33B30A532C649D4F006855CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B30A512C649D4F006855CE /* LaunchScreen.storyboard */; };
+		33B30A562C649D4F006855CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B30A552C649D4F006855CE /* main.m */; };
+		33B30A602C649D4F006855CE /* ContactPickerPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B30A5F2C649D4F006855CE /* ContactPickerPOCTests.m */; };
+		33B30A6A2C649D4F006855CE /* ContactPickerPOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B30A692C649D4F006855CE /* ContactPickerPOCUITests.m */; };
+		33B30A6C2C649D4F006855CE /* ContactPickerPOCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B30A6B2C649D4F006855CE /* ContactPickerPOCUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B30A5C2C649D4F006855CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B30A382C649D4D006855CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B30A3F2C649D4D006855CE;
+			remoteInfo = ContactPickerPOC;
+		};
+		33B30A662C649D4F006855CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B30A382C649D4D006855CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B30A3F2C649D4D006855CE;
+			remoteInfo = ContactPickerPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33B30A402C649D4D006855CE /* ContactPickerPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactPickerPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B30A432C649D4D006855CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33B30A442C649D4D006855CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33B30A462C649D4D006855CE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		33B30A472C649D4D006855CE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		33B30A492C649D4D006855CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33B30A4A2C649D4D006855CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33B30A4D2C649D4D006855CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33B30A4F2C649D4F006855CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33B30A522C649D4F006855CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33B30A542C649D4F006855CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B30A552C649D4F006855CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33B30A5B2C649D4F006855CE /* ContactPickerPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactPickerPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B30A5F2C649D4F006855CE /* ContactPickerPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactPickerPOCTests.m; sourceTree = "<group>"; };
+		33B30A652C649D4F006855CE /* ContactPickerPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactPickerPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B30A692C649D4F006855CE /* ContactPickerPOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactPickerPOCUITests.m; sourceTree = "<group>"; };
+		33B30A6B2C649D4F006855CE /* ContactPickerPOCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactPickerPOCUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B30A3D2C649D4D006855CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B30A582C649D4F006855CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B30A622C649D4F006855CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B30A372C649D4D006855CE = {
+			isa = PBXGroup;
+			children = (
+				33B30A422C649D4D006855CE /* ContactPickerPOC */,
+				33B30A5E2C649D4F006855CE /* ContactPickerPOCTests */,
+				33B30A682C649D4F006855CE /* ContactPickerPOCUITests */,
+				33B30A412C649D4D006855CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33B30A412C649D4D006855CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B30A402C649D4D006855CE /* ContactPickerPOC.app */,
+				33B30A5B2C649D4F006855CE /* ContactPickerPOCTests.xctest */,
+				33B30A652C649D4F006855CE /* ContactPickerPOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B30A422C649D4D006855CE /* ContactPickerPOC */ = {
+			isa = PBXGroup;
+			children = (
+				33B30A432C649D4D006855CE /* AppDelegate.h */,
+				33B30A442C649D4D006855CE /* AppDelegate.m */,
+				33B30A462C649D4D006855CE /* SceneDelegate.h */,
+				33B30A472C649D4D006855CE /* SceneDelegate.m */,
+				33B30A492C649D4D006855CE /* ViewController.h */,
+				33B30A4A2C649D4D006855CE /* ViewController.m */,
+				33B30A4C2C649D4D006855CE /* Main.storyboard */,
+				33B30A4F2C649D4F006855CE /* Assets.xcassets */,
+				33B30A512C649D4F006855CE /* LaunchScreen.storyboard */,
+				33B30A542C649D4F006855CE /* Info.plist */,
+				33B30A552C649D4F006855CE /* main.m */,
+			);
+			path = ContactPickerPOC;
+			sourceTree = "<group>";
+		};
+		33B30A5E2C649D4F006855CE /* ContactPickerPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B30A5F2C649D4F006855CE /* ContactPickerPOCTests.m */,
+			);
+			path = ContactPickerPOCTests;
+			sourceTree = "<group>";
+		};
+		33B30A682C649D4F006855CE /* ContactPickerPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33B30A692C649D4F006855CE /* ContactPickerPOCUITests.m */,
+				33B30A6B2C649D4F006855CE /* ContactPickerPOCUITestsLaunchTests.m */,
+			);
+			path = ContactPickerPOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B30A3F2C649D4D006855CE /* ContactPickerPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B30A6F2C649D4F006855CE /* Build configuration list for PBXNativeTarget "ContactPickerPOC" */;
+			buildPhases = (
+				33B30A3C2C649D4D006855CE /* Sources */,
+				33B30A3D2C649D4D006855CE /* Frameworks */,
+				33B30A3E2C649D4D006855CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactPickerPOC;
+			productName = ContactPickerPOC;
+			productReference = 33B30A402C649D4D006855CE /* ContactPickerPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B30A5A2C649D4F006855CE /* ContactPickerPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B30A722C649D4F006855CE /* Build configuration list for PBXNativeTarget "ContactPickerPOCTests" */;
+			buildPhases = (
+				33B30A572C649D4F006855CE /* Sources */,
+				33B30A582C649D4F006855CE /* Frameworks */,
+				33B30A592C649D4F006855CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B30A5D2C649D4F006855CE /* PBXTargetDependency */,
+			);
+			name = ContactPickerPOCTests;
+			productName = ContactPickerPOCTests;
+			productReference = 33B30A5B2C649D4F006855CE /* ContactPickerPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33B30A642C649D4F006855CE /* ContactPickerPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B30A752C649D4F006855CE /* Build configuration list for PBXNativeTarget "ContactPickerPOCUITests" */;
+			buildPhases = (
+				33B30A612C649D4F006855CE /* Sources */,
+				33B30A622C649D4F006855CE /* Frameworks */,
+				33B30A632C649D4F006855CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B30A672C649D4F006855CE /* PBXTargetDependency */,
+			);
+			name = ContactPickerPOCUITests;
+			productName = ContactPickerPOCUITests;
+			productReference = 33B30A652C649D4F006855CE /* ContactPickerPOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B30A382C649D4D006855CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					33B30A3F2C649D4D006855CE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					33B30A5A2C649D4F006855CE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 33B30A3F2C649D4D006855CE;
+					};
+					33B30A642C649D4F006855CE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 33B30A3F2C649D4D006855CE;
+					};
+				};
+			};
+			buildConfigurationList = 33B30A3B2C649D4D006855CE /* Build configuration list for PBXProject "ContactPickerPOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B30A372C649D4D006855CE;
+			productRefGroup = 33B30A412C649D4D006855CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B30A3F2C649D4D006855CE /* ContactPickerPOC */,
+				33B30A5A2C649D4F006855CE /* ContactPickerPOCTests */,
+				33B30A642C649D4F006855CE /* ContactPickerPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B30A3E2C649D4D006855CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B30A532C649D4F006855CE /* LaunchScreen.storyboard in Resources */,
+				33B30A502C649D4F006855CE /* Assets.xcassets in Resources */,
+				33B30A4E2C649D4D006855CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B30A592C649D4F006855CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B30A632C649D4F006855CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B30A3C2C649D4D006855CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B30A4B2C649D4D006855CE /* ViewController.m in Sources */,
+				33B30A452C649D4D006855CE /* AppDelegate.m in Sources */,
+				33B30A562C649D4F006855CE /* main.m in Sources */,
+				33B30A482C649D4D006855CE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B30A572C649D4F006855CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B30A602C649D4F006855CE /* ContactPickerPOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B30A612C649D4F006855CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B30A6C2C649D4F006855CE /* ContactPickerPOCUITestsLaunchTests.m in Sources */,
+				33B30A6A2C649D4F006855CE /* ContactPickerPOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B30A5D2C649D4F006855CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B30A3F2C649D4D006855CE /* ContactPickerPOC */;
+			targetProxy = 33B30A5C2C649D4F006855CE /* PBXContainerItemProxy */;
+		};
+		33B30A672C649D4F006855CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B30A3F2C649D4D006855CE /* ContactPickerPOC */;
+			targetProxy = 33B30A662C649D4F006855CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B30A4C2C649D4D006855CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B30A4D2C649D4D006855CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33B30A512C649D4F006855CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B30A522C649D4F006855CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B30A6D2C649D4F006855CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33B30A6E2C649D4F006855CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B30A702C649D4F006855CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactPickerPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ContactPickerPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B30A712C649D4F006855CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactPickerPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ContactPickerPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33B30A732C649D4F006855CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ContactPickerPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactPickerPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactPickerPOC";
+			};
+			name = Debug;
+		};
+		33B30A742C649D4F006855CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ContactPickerPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactPickerPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactPickerPOC";
+			};
+			name = Release;
+		};
+		33B30A762C649D4F006855CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ContactPickerPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactPickerPOC;
+			};
+			name = Debug;
+		};
+		33B30A772C649D4F006855CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ContactPickerPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactPickerPOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B30A3B2C649D4D006855CE /* Build configuration list for PBXProject "ContactPickerPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B30A6D2C649D4F006855CE /* Debug */,
+				33B30A6E2C649D4F006855CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B30A6F2C649D4F006855CE /* Build configuration list for PBXNativeTarget "ContactPickerPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B30A702C649D4F006855CE /* Debug */,
+				33B30A712C649D4F006855CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B30A722C649D4F006855CE /* Build configuration list for PBXNativeTarget "ContactPickerPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B30A732C649D4F006855CE /* Debug */,
+				33B30A742C649D4F006855CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B30A752C649D4F006855CE /* Build configuration list for PBXNativeTarget "ContactPickerPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B30A762C649D4F006855CE /* Debug */,
+				33B30A772C649D4F006855CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B30A382C649D4D006855CE /* Project object */;
+}
