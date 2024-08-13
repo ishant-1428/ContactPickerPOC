@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *txtNumero;
+- (IBAction)btnContact:(id)sender;
 
 @end
 
